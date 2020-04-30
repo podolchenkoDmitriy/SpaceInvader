@@ -2,8 +2,8 @@
 
 public class CameraMoves : MonoBehaviour
 {
-    [SerializeField] private  Transform _target;
-    [SerializeField] private Vector3 _offset;
+    [SerializeField] private  Transform _target = null;
+    [SerializeField] private Vector3 _offset = new Vector3(0, 50, 150);
     [SerializeField] private  float _smoothTime = 0.25f;
     private void Start()
     {

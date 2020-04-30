@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 3309535190627514239}
   - component: {fileID: 3295664785996599489}
   - component: {fileID: 3547498359616387106}
+  - component: {fileID: 2104225174076526018}
   m_Layer: 0
   m_Name: Ship
   m_TagString: Untagged
@@ -165,6 +166,20 @@ MonoBehaviour:
   _bullets: {fileID: 1420288044068573793, guid: e3708ec64aa9f7d4880eb6a32a3aa804,
     type: 3}
   _bulletForce: 25000
+--- !u!64 &2104225174076526018
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3295664785996599501}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300008, guid: e0f90ad78680d6145b082ac69f7fc504, type: 3}
 --- !u!1 &3295848418100030529
 GameObject:
   m_ObjectHideFlags: 0

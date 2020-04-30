@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public abstract class Health : MonoBehaviour
 {
-    [SerializeField] private  float _maxHealth;
+    [SerializeField] private  float _maxHealth = 100f;
     private float _currentHealth;
 
     public Image _healthBar;

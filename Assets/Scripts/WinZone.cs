@@ -3,9 +3,9 @@ using UnityEngine;
 
 public class WinZone : MonoBehaviour
 {
-    [SerializeField] GameObject _winText;
-    [SerializeField] GameObject _loseText;
-    [SerializeField] GameObject _tutorialText;
+    [SerializeField] GameObject _winText = null;
+    [SerializeField] GameObject _loseText = null;
+    [SerializeField] GameObject _tutorialText = null;
     [SerializeField] float _disableTextTime = 2f;
     PlayerInput _player;
     private void Start()

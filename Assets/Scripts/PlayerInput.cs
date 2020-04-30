@@ -7,7 +7,7 @@ public class PlayerInput : Health
     [SerializeField] private float _flySpeed = 50f;
     [SerializeField] private float _maxSpeed = 100f;
     [SerializeField] private float _boostTime = 3f;
-    [SerializeField] private FloatingJoystick _variableJoystick;
+    [SerializeField] private FloatingJoystick _variableJoystick = null;
 
     private Rigidbody _rb;
     private Shield _shield;

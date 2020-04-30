@@ -2,7 +2,7 @@
 
 internal class Obstacle : Health
 {
-    public GameObject _destroyObstacleVFX;
+    public GameObject _destroyObstacleVFX = null;
     [SerializeField] private  float _destroyingTime = 2f;
     private void Start()
     {
